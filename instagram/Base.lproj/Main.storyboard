@@ -11,23 +11,37 @@
         <!--Settings-->
         <scene sceneID="mrm-Lg-x8l">
             <objects>
-                <viewController id="tob-JC-4rd" sceneMemberID="viewController">
+                <viewController id="tob-JC-4rd" customClass="SettingsViewController" customModule="instagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p5t-Cs-blb">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvH-cO-SNz">
+                                <rect key="frame" x="157" y="409" width="78" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Logout"/>
+                                <connections>
+                                    <action selector="logoutButtonClicked:" destination="tob-JC-4rd" eventType="touchUpInside" id="ovH-Ob-doE"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ATQ-T1-2y0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="wrench.adjustable.fill" catalog="system" id="Hif-I6-A2i"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toViewController" modalPresentationStyle="fullScreen" id="5mM-qm-GRs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RzH-jx-pE7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-992" y="883"/>
+            <point key="canvasLocation" x="-1230" y="968"/>
         </scene>
         <!--Upload-->
         <scene sceneID="XYp-AQ-z6z">
             <objects>
-                <viewController id="yge-46-TZR" sceneMemberID="viewController">
+                <viewController id="yge-46-TZR" customClass="UploadViewController" customModule="instagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ta1-tv-zuU">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,7 +57,7 @@
         <!--Feed-->
         <scene sceneID="ZLu-hi-2OP">
             <objects>
-                <viewController id="9Ca-5V-dhq" sceneMemberID="viewController">
+                <viewController id="9Ca-5V-dhq" customClass="FeedViewController" customModule="instagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cFJ-Cf-rLd">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -152,6 +166,7 @@
                             <constraint firstItem="Leg-SG-nJI" firstAttribute="centerX" secondItem="eeu-Re-CjX" secondAttribute="centerX" id="wjs-ph-50B"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="cg1-1c-V9t"/>
                     <connections>
                         <outlet property="emailText" destination="eeu-Re-CjX" id="Mxi-fS-JUu"/>
                         <outlet property="passwordText" destination="ker-0h-0va" id="kpb-6j-Bj5"/>

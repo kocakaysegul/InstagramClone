@@ -15,6 +15,9 @@
 		D8A1C4FC29AFAB0E00C9856F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A1C4FB29AFAB0E00C9856F /* Assets.xcassets */; };
 		D8A1C4FF29AFAB0E00C9856F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A1C4FD29AFAB0E00C9856F /* LaunchScreen.storyboard */; };
 		D8A1C50729AFAEAE00C9856F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A1C50629AFAEAE00C9856F /* GoogleService-Info.plist */; };
+		D8C24F4C29B06F910086B1D0 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C24F4B29B06F910086B1D0 /* FeedViewController.swift */; };
+		D8C24F4E29B06F9C0086B1D0 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C24F4D29B06F9C0086B1D0 /* UploadViewController.swift */; };
+		D8C24F5029B06FA80086B1D0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C24F4F29B06FA80086B1D0 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		D8A1C4FE29AFAB0E00C9856F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8A1C50029AFAB0E00C9856F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8A1C50629AFAEAE00C9856F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D8C24F4B29B06F910086B1D0 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		D8C24F4D29B06F9C0086B1D0 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		D8C24F4F29B06FA80086B1D0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		F2AD3D084A150591344C7E43 /* Pods_instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -50,7 +56,6 @@
 				B59947BD740B4A380888DFAE /* Pods-instagram.debug.xcconfig */,
 				D3AFBB9232FF359205A4CC08 /* Pods-instagram.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -86,6 +91,9 @@
 				D8A1C4F229AFAB0D00C9856F /* AppDelegate.swift */,
 				D8A1C4F429AFAB0D00C9856F /* SceneDelegate.swift */,
 				D8A1C4F629AFAB0D00C9856F /* ViewController.swift */,
+				D8C24F4B29B06F910086B1D0 /* FeedViewController.swift */,
+				D8C24F4D29B06F9C0086B1D0 /* UploadViewController.swift */,
+				D8C24F4F29B06FA80086B1D0 /* SettingsViewController.swift */,
 				D8A1C4F829AFAB0D00C9856F /* Main.storyboard */,
 				D8A1C4FB29AFAB0E00C9856F /* Assets.xcassets */,
 				D8A1C4FD29AFAB0E00C9856F /* LaunchScreen.storyboard */,
@@ -212,8 +220,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8A1C4F729AFAB0D00C9856F /* ViewController.swift in Sources */,
+				D8C24F4E29B06F9C0086B1D0 /* UploadViewController.swift in Sources */,
 				D8A1C4F329AFAB0D00C9856F /* AppDelegate.swift in Sources */,
+				D8C24F4C29B06F910086B1D0 /* FeedViewController.swift in Sources */,
 				D8A1C4F529AFAB0D00C9856F /* SceneDelegate.swift in Sources */,
+				D8C24F5029B06FA80086B1D0 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
