@@ -8,6 +8,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Settings-->
+        <scene sceneID="mrm-Lg-x8l">
+            <objects>
+                <viewController id="tob-JC-4rd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p5t-Cs-blb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ATQ-T1-2y0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="wrench.adjustable.fill" catalog="system" id="Hif-I6-A2i"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RzH-jx-pE7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-992" y="883"/>
+        </scene>
         <!--Upload-->
         <scene sceneID="XYp-AQ-z6z">
             <objects>
@@ -18,7 +34,7 @@
                         <viewLayoutGuide key="safeArea" id="VWJ-Jw-iKK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Upload" id="Jf8-cw-A3M"/>
+                    <tabBarItem key="tabBarItem" title="Upload" image="square.and.arrow.up.fill" catalog="system" id="Jf8-cw-A3M"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oqK-b9-jqi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -34,7 +50,7 @@
                         <viewLayoutGuide key="safeArea" id="6dx-a1-E6c"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Feed" id="P8p-vE-gjE"/>
+                    <tabBarItem key="tabBarItem" title="Feed" image="homekit" catalog="system" id="P8p-vE-gjE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EVu-JD-95G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -52,6 +68,7 @@
                     <connections>
                         <segue destination="9Ca-5V-dhq" kind="relationship" relationship="viewControllers" id="PAh-84-Gi8"/>
                         <segue destination="yge-46-TZR" kind="relationship" relationship="viewControllers" id="hwQ-57-EtE"/>
+                        <segue destination="tob-JC-4rd" kind="relationship" relationship="viewControllers" id="FeL-lT-8gX"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Av7-x7-96n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -147,6 +164,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="homekit" catalog="system" width="128" height="104"/>
+        <image name="square.and.arrow.up.fill" catalog="system" width="115" height="128"/>
+        <image name="wrench.adjustable.fill" catalog="system" width="128" height="124"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
