@@ -45,14 +45,49 @@
                     <view key="view" contentMode="scaleToFill" id="Ta1-tv-zuU">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touch-tap" translatesAutoresizingMaskIntoConstraints="NO" id="2rV-fr-S4D">
+                                <rect key="frame" x="36" y="136" width="332" height="299"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I3H-u0-UsY">
+                                <rect key="frame" x="36" y="481" width="332" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="3Ts-6i-qR7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwK-1g-fuz">
+                                <rect key="frame" x="164" y="551" width="76" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="ElJ-50-uQC"/>
+                                </constraints>
+                                <color key="tintColor" red="0.51938049119999996" green="0.52975761320000003" blue="0.65825603590000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="upload"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="VWJ-Jw-iKK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lwK-1g-fuz" firstAttribute="top" secondItem="I3H-u0-UsY" secondAttribute="bottom" constant="36" id="3U4-jh-4w7"/>
+                            <constraint firstItem="I3H-u0-UsY" firstAttribute="centerX" secondItem="lwK-1g-fuz" secondAttribute="centerX" id="DEf-lE-fkm"/>
+                            <constraint firstItem="2rV-fr-S4D" firstAttribute="top" secondItem="VWJ-Jw-iKK" secondAttribute="top" constant="77" id="Lhd-Xo-Wl1"/>
+                            <constraint firstItem="VWJ-Jw-iKK" firstAttribute="bottom" secondItem="lwK-1g-fuz" secondAttribute="bottom" constant="183" id="LjH-pk-eVE"/>
+                            <constraint firstItem="2rV-fr-S4D" firstAttribute="leading" secondItem="I3H-u0-UsY" secondAttribute="leading" id="VK9-Py-80B"/>
+                            <constraint firstItem="2rV-fr-S4D" firstAttribute="leading" secondItem="VWJ-Jw-iKK" secondAttribute="leading" constant="36" id="XoE-Pj-5Is"/>
+                            <constraint firstItem="lwK-1g-fuz" firstAttribute="leading" secondItem="VWJ-Jw-iKK" secondAttribute="leading" constant="164" id="YVm-mf-XKM"/>
+                            <constraint firstItem="2rV-fr-S4D" firstAttribute="trailing" secondItem="I3H-u0-UsY" secondAttribute="trailing" id="go3-0E-gDd"/>
+                            <constraint firstItem="I3H-u0-UsY" firstAttribute="top" secondItem="2rV-fr-S4D" secondAttribute="bottom" constant="46" id="qMC-gi-82f"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Upload" image="square.and.arrow.up.fill" catalog="system" id="Jf8-cw-A3M"/>
+                    <tabBarItem key="tabBarItem" title="Upload" image="square.and.arrow.up.fill" catalog="system" id="Jf8-cw-A3M">
+                        <color key="badgeColor" red="0.51938049119999996" green="0.52975761320000003" blue="0.65825603590000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oqK-b9-jqi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7" y="521"/>
+            <point key="canvasLocation" x="6.8702290076335872" y="519.71830985915494"/>
         </scene>
         <!--Feed-->
         <scene sceneID="ZLu-hi-2OP">
@@ -184,6 +219,7 @@
     <resources>
         <image name="homekit" catalog="system" width="128" height="104"/>
         <image name="square.and.arrow.up.fill" catalog="system" width="115" height="128"/>
+        <image name="touch-tap" width="256" height="256"/>
         <image name="wrench.adjustable.fill" catalog="system" width="128" height="124"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
