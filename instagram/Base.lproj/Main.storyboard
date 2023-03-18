@@ -73,7 +73,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="73F-Ke-Fy6">
             <objects>
-                <tabBarController id="WPL-7e-6dW" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabBar" id="WPL-7e-6dW" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5U8-ZZ-raK">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -99,10 +99,11 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbt-Qx-wrh">
                                 <rect key="frame" x="131" y="385" width="126" height="47"/>
+                                <color key="backgroundColor" red="0.51938049119999996" green="0.52975761320000003" blue="0.65825603590000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="NqN-zj-vlH"/>
                                 </constraints>
-                                <color key="tintColor" red="0.67918421200000001" green="0.69275418150000001" blue="0.86078917980000003" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.51938049119999996" green="0.52975761320000003" blue="0.65825603590000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign In"/>
                                 <connections>
@@ -111,7 +112,8 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRK-TY-mAV">
                                 <rect key="frame" x="131" y="462" width="126" height="47"/>
-                                <color key="tintColor" red="0.67918421200000001" green="0.69275418150000001" blue="0.86078917980000003" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.51938049119999996" green="0.52975761320000003" blue="0.65825603590000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.51938049119999996" green="0.52975761320000003" blue="0.65825603590000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign Up"/>
                                 <connections>
@@ -147,6 +149,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" red="0.51938049119999996" green="0.52975761320000003" blue="0.65825603590000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="eeu-Re-CjX" firstAttribute="leading" secondItem="ker-0h-0va" secondAttribute="leading" id="8Ah-ft-XhS"/>
                             <constraint firstItem="eeu-Re-CjX" firstAttribute="trailing" secondItem="ker-0h-0va" secondAttribute="trailing" id="8Q1-aD-bOn"/>
