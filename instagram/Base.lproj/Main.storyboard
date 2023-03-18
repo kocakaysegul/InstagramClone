@@ -49,7 +49,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touch-tap" translatesAutoresizingMaskIntoConstraints="NO" id="2rV-fr-S4D">
                                 <rect key="frame" x="36" y="136" width="332" height="299"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I3H-u0-UsY">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="comment" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I3H-u0-UsY">
                                 <rect key="frame" x="36" y="481" width="332" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="3Ts-6i-qR7"/>
@@ -65,6 +65,9 @@
                                 <color key="tintColor" red="0.51938049119999996" green="0.52975761320000003" blue="0.65825603590000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="upload"/>
+                                <connections>
+                                    <action selector="actionButtonClicked:" destination="yge-46-TZR" eventType="touchUpInside" id="ygD-6W-qYM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VWJ-Jw-iKK"/>
@@ -84,6 +87,11 @@
                     <tabBarItem key="tabBarItem" title="Upload" image="square.and.arrow.up.fill" catalog="system" id="Jf8-cw-A3M">
                         <color key="badgeColor" red="0.51938049119999996" green="0.52975761320000003" blue="0.65825603590000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="commentText" destination="I3H-u0-UsY" id="ibN-ws-D41"/>
+                        <outlet property="imageView" destination="2rV-fr-S4D" id="Qn3-Zb-k44"/>
+                        <outlet property="uploadButton" destination="lwK-1g-fuz" id="ZAc-Dp-KOG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oqK-b9-jqi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
