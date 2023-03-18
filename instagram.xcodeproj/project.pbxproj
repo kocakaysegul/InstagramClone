@@ -18,6 +18,7 @@
 		D8C24F4C29B06F910086B1D0 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C24F4B29B06F910086B1D0 /* FeedViewController.swift */; };
 		D8C24F4E29B06F9C0086B1D0 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C24F4D29B06F9C0086B1D0 /* UploadViewController.swift */; };
 		D8C24F5029B06FA80086B1D0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C24F4F29B06FA80086B1D0 /* SettingsViewController.swift */; };
+		D8C24F5229C60CD90086B1D0 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C24F5129C60CD90086B1D0 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		D8C24F4B29B06F910086B1D0 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		D8C24F4D29B06F9C0086B1D0 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		D8C24F4F29B06FA80086B1D0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D8C24F5129C60CD90086B1D0 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		F2AD3D084A150591344C7E43 /* Pods_instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 				D8A1C4F429AFAB0D00C9856F /* SceneDelegate.swift */,
 				D8A1C4F629AFAB0D00C9856F /* ViewController.swift */,
 				D8C24F4B29B06F910086B1D0 /* FeedViewController.swift */,
+				D8C24F5129C60CD90086B1D0 /* FeedCell.swift */,
 				D8C24F4D29B06F9C0086B1D0 /* UploadViewController.swift */,
 				D8C24F4F29B06FA80086B1D0 /* SettingsViewController.swift */,
 				D8A1C4F829AFAB0D00C9856F /* Main.storyboard */,
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C24F5229C60CD90086B1D0 /* FeedCell.swift in Sources */,
 				D8A1C4F729AFAB0D00C9856F /* ViewController.swift in Sources */,
 				D8C24F4E29B06F9C0086B1D0 /* UploadViewController.swift in Sources */,
 				D8A1C4F329AFAB0D00C9856F /* AppDelegate.swift in Sources */,
