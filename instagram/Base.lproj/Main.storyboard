@@ -145,6 +145,13 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlG-Ih-24W">
+                                                    <rect key="frame" x="331" y="28" width="42" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="ke0-hB-Key" firstAttribute="leading" secondItem="Q0N-i8-bw4" secondAttribute="leadingMargin" id="FBA-9T-pR7"/>
@@ -163,6 +170,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="commentLabel" destination="SlH-pc-fQC" id="SlS-ah-kHH"/>
+                                            <outlet property="documentIDLabel" destination="zlG-Ih-24W" id="Hd7-Ch-e99"/>
                                             <outlet property="likeLabel" destination="TIL-Yj-vjh" id="7e4-gj-5nh"/>
                                             <outlet property="userEmailLabel" destination="ke0-hB-Key" id="Vch-XY-SYg"/>
                                             <outlet property="userImageView" destination="QMr-pH-W3A" id="cVX-A1-Bmc"/>
